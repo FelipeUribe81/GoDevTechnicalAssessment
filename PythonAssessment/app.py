@@ -22,9 +22,12 @@ if __name__ == "__main__":
     # Run movements
     car_movements = 5
 
+    print("Car Movements")
     for i in range(car_movements):
         car_in_parking.turn_car()
+        four_size_parking.print_parking()
         car_in_parking.move_forward()
+        four_size_parking.print_parking()
     
-    print("\nFinal Result")
+    print("Final Result")
     four_size_parking.print_parking()
