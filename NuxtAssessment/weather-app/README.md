@@ -1,75 +1,55 @@
-# Nuxt 3 Minimal Starter
+# Weather Application - Nuxt 3 Project
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Overview
+
+This project is built using Nuxt 3. Please follow the setup instructions below to run the application successfully.
 
 ## Setup
 
-Make sure to install the dependencies:
+1. **Make sure you are in the correct folder:**
 
-```bash
-# npm
-npm install
+    The path from the project root should be:
 
-# pnpm
-pnpm install
+    ```bash
+    ./NuxtAssessment/weather-app
+    ```
 
-# yarn
-yarn install
+2. **Install Node.js Modules:**
 
-# bun
-bun install
-```
+   Make sure to install the necessary Node.js modules by running:
+
+   ```bash
+   npm install
+   ```
+
+3. **Create a .env File:**
+
+   You'll need to create a .env file in the root directory with the following content:
+
+   ```bash
+   API_KEY=YOUR_API_KEY
+   ```
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+To start the development server, run the following command:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
+
+You can view the application at http://localhost:3000.
 
 ## Production
 
-Build the application for production:
+To build the application for production, use the following command:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+To locally preview the production build, run:
 
 ```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
