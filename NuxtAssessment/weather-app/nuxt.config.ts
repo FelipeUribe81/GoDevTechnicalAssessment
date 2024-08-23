@@ -14,14 +14,11 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-
-    apiKey: process.env.API_KEY,
-
     public: {
-      apiBaseUrl: process.env.API_BASE_URL,
-      apiCurrentWeather: "/current.json", 
-      apiForecast: "/Forecast.json", 
-      apiHistory: "/History.json" 
+      apiKey: process.env.API_KEY,
+      apiForecast: "/forecast.json", 
+      forecastDays: "7",
+      defaultCity: "Bogota",
     }
   },
 })
