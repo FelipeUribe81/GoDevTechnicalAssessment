@@ -13,7 +13,7 @@ const searchForCity = () => {
 </script>
 
 <template>
-    <div class="w-[80%]">
+    <div class="w-[60%] md:w-[70%] xl:w-[80%]">
         <div class="relative">
             <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                 <IconsSearchIcon />
