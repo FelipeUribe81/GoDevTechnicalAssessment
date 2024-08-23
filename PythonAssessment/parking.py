@@ -1,3 +1,5 @@
+import re
+
 FREE_SLOT = "_"
 BUSSY_SLOT = "x"
 
@@ -15,4 +17,5 @@ class Parking:
 
     def print_parking(self):
         for parking_row in self.parking_grid:
-            print(parking_row)
+            print(re.sub(r'\[|\]|,', '|', str(parking_row)))
+        print("\n")
